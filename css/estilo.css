@@ -1,0 +1,201 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	text-align:center;
+	width:100%;
+	background-image: url("../img/fondo.jpg");
+  	font: oblique bold 120% ; 
+}
+.contenedor_principal{
+	width:90%;	
+	min-height:665px;
+	background-image: url("../img/fondo2.jpg");
+	margin:0 auto;
+	border-radius:0.5em;
+}
+header{
+	height:120px;
+	color:rgb(0, 61, 127);
+	text-align:left;
+	display:block;
+	margin:0 auto;
+  font: oblique bold 120% ; 
+}
+
+nav{
+   width:90%;
+   margin: 0 auto;
+   background: #125893;
+   display: block;
+   border-radius:0.5em;
+}
+nav li{
+   list-style: none;
+   display: inline-block;
+	padding: 5px;
+   position:relative; /* importante, para que el submenu tome la posición correcta*/
+}
+nav li a{
+   color: #ffffff;
+   text-decoration:none;
+   padding: 5px;
+   display:inline-block;
+}
+nav li a:hover{
+   color:#ffffff;
+}
+nav li:hover{
+   border:1px # solid;
+   margin:-1px;
+   display: inline-block;
+	padding: 5px;
+   background:#F4AF00;
+}
+nav li li a{/*el ancho de los links del submenu, debe ser fijo, esto servirá para crear la animación mas adelante */
+   display:block;
+   text-align:left;
+}
+/* aquí esta lo importante!! */
+nav li ul {
+   width: 190px;
+   margin:0 auto;
+   display:none;
+   top:47px;
+   background:#ccc ;
+   border:1px #ccc solid;
+   position: absolute;
+   top:47px;
+}
+nav li:hover ul {
+   display: block;
+}
+.activo{
+	border:1px #ccc solid;
+   margin:-1px;
+   display: inline-block;
+   background:#F4AF00;
+    
+}
+a#activo{
+	color:#ffffff;
+}
+.centro{
+	width:90%;
+    margin: 0 auto;
+    background: #EEE;
+    border-radius:0.5em;
+    min-height:400px;
+    margin-top:10px;
+}
+aside{
+	width:25%;
+	padding:15px;
+	font-size: 15px;
+	color:rgb(0, 61, 127);
+	display:inline-block;
+	vertical-align:top;
+}
+section{
+	width:65%;
+	padding:15px;
+	font-size: 15px;
+	color:rgb(0, 61, 127);
+	display:inline-block;
+	vertical-align:top;
+}
+fieldset{
+	height:300px;
+	border-radius:0.5em;
+	border: 3px solid #F4AF00;
+}
+img#pro{
+	border-radius:0.5em;
+	width:100%;
+}
+img#facebook{
+	width:200px;
+	height:100px;
+
+}
+img#cont{
+	width:320px;
+}
+img#int{
+	width:300px;
+	height:300px;
+}
+.img{
+	width:43%;
+	background:#fff;
+	height:300px;
+	padding:15px;
+	border-radius:0.5em;
+	margin:0 auto;
+	display:inline-block;
+	vertical-align:top;
+	border: 3px solid rgb(0, 61, 127);
+}
+.form{
+	width:45%;
+	padding:15px;
+	background:#fff;
+	height:300px;
+	border-radius:0.5em;
+	margin:0 auto;
+	display:inline-block;
+	vertical-align:top;
+	border: 3px solid rgb(0, 61, 127);
+}
+.campos{
+	height:25px;
+	border-radius:0.5em;
+	color:rgb(0, 61, 127);
+	font: oblique bold 80% ; 
+	width:170px;
+}
+/*Cambiar el color al placeholder*/	
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color:#08D;
+}
+textarea{
+	width:170px;
+	height:50px;
+	color:rgb(0, 61, 127);
+	border-radius:0.5em;
+	font: oblique bold 80% ; 
+}
+input#boton{
+	width:100px;
+	height:25px;
+	border-radius:0.5em;
+	color:#fff;
+	background:rgb(0, 61, 127);
+}
+div#prod2{
+	text-align:left;
+}
+div#centrado{
+	width:90%;
+	float:right;
+}
+.msg{
+	height:25px;
+	width:95%;
+	background:#FE2E2E;
+	display:none;
+	border-radius:1em;
+	color:white;
+}
+.icono{
+	height:25px;
+	width:25px;
+	float:left;
+	padding-left:15px;
+}
+p#footer{
+			color:rgb(0, 61, 127);
+			margin-top:25px;
+		}
